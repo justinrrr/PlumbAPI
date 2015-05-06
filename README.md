@@ -1,4 +1,4 @@
-### Task: Create an API for a movable object
+# Task: Create an API for a movable component
 
 Go to this [link](http://www.jsplumb.org/demo/flowchart/dom.html) and play around with the demo. 
 
@@ -14,3 +14,13 @@ The API should support the following:
  - Components can be disconnected from each other. 
  - A component should be able to answer whether it is connected to a given component and if so should provide information about the connection (labels of the connection). 
 
+###  what you need to do: 
+
+- Design classes and their public APIs for the components and any other object that you need. 
+- Document the API: Parameters, Return values, error cases, guarantees, and contracts. Also find a way to hide the internals of your objects from the outside world. 
+- You need to define the functions and internal/external variables for your classes. You don't need to implement the functions or define any internal helper functions. 
+- You can make any assumption you want as long as you specify them clearly and that they don't contradict any instructions above. 
+
+### How to do it: 
+
+Fork this repo in your Github account, submit your code, and then perform a pull request. 
