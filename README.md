@@ -13,6 +13,7 @@ The API should support the following:
  - Each component has four outlets that connections can go into. The component cannot accept more than four connections. In addition, the component should be able to answer which outlets have been connected to what connections. 
  - Components can be disconnected from each other. 
  - A component should be able to answer whether it is connected to a given component and if so should provide information about the connection (labels of the connection). 
+ - Connections are directional. Each connection has a source and a sink (target). 
 
 ###  what you need to do: 
 
